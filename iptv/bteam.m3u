@@ -1,5 +1,5 @@
 
-#EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml" billed-msg="List for local use in bTeam, region is VN"
+#EXTM3U url-tvg="https://lichphatsong.xyz/schedule/epg.xml" billed-msg="List for local use in bTeam, region is VN"
 # Note
 
 #EXTINF:-1 tvg-id="bteamtv" group-title="bTeam Network" group-logo="http://myforum.mydiscussion.net/wp-content/uploads/2023/08/cropped-MyForum-v2-No-Background-512px.png" tvg-logo="http://myforum.mydiscussion.net/wp-content/uploads/2023/08/cropped-MyForum-v2-No-Background-512px.png", bTeam TV HD

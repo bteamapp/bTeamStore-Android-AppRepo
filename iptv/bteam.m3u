@@ -3,7 +3,7 @@
 # Note
 
 #EXTINF:-1 tvg-id="bteamtv" group-title="bTeam Network" group-logo="http://myforum.mydiscussion.net/wp-content/uploads/2023/08/cropped-MyForum-v2-No-Background-512px.png" tvg-logo="http://myforum.mydiscussion.net/wp-content/uploads/2023/08/cropped-MyForum-v2-No-Background-512px.png", bTeam TV HD
-http://tv-myforum.mydiscussion.net/assets/d48af27b4f114dc9b5bdfd0fa83a0042/this-content-is-not-available.m3u8?i=1
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-available/this-content-is-not-available0.ts
 
 #EXTINF:-1 tvg-id="vthanhchannel" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhchannel_thumb.png", VThanh Channel
 http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8?i=1

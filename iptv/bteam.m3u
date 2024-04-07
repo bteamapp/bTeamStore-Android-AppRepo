@@ -6,7 +6,7 @@
 https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-available/this-content-is-not-available0.ts
 
 #EXTINF:-1 tvg-id="vthanhchannel" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhchannel_thumb.png", VThanh Channel
-https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
+https://github.com/vthanhtivi/hinhcho/raw/master/file.m3u8
 #EXTINF:-1 tvg-id="vthanhaudio" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhaudio_thumb.png", VThanh Audio
 https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
 #EXTINF:-1 tvg-id="vthanhsp1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports1_thumb.png", VThanh Sports 1

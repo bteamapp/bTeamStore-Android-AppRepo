@@ -6,13 +6,13 @@
 https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-available/this-content-is-not-available0.ts
 
 #EXTINF:-1 tvg-id="vthanhchannel" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhchannel_thumb.png", VThanh Channel
-http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8?i=1
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
 #EXTINF:-1 tvg-id="vthanhaudio" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhaudio_thumb.png", VThanh Audio
-http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8?i=1
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
 #EXTINF:-1 tvg-id="vthanhsp1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports1_thumb.png", VThanh Sports 1
-http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8?i=1
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
 #EXTINF:-1 tvg-id="vthanhsp2" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh Sports 2
-http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8?i=1
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
 #EXTINF:-1 tvg-id="vthanhtpu2" group-title="VThanh Network" tvg-logo="https://lh6.googleusercontent.com/WtV4RXNqkE6UTfZotfu-2yq0FwQzpeY9AkMkvkNuh9GHKuRpxbtJQTVfcPH68opYnEKf5HQ7utM7sTMsOO9z94kbihjV1umhAMGP_BCfEf9QLWt0wMwkMFdGNXZGxEKv_Q=w1280", VThanh TPU 2
 https://doitac.nekocdn.xyz/tpv1/index.m3u8
 #EXTINF:-1 tvg-id="vthanhatv1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh ATV 1
@@ -44,15 +44,15 @@ https://1236573804.pop.vnptcdn.com/VTC14/playlist.m3u8
 https://1236573804.pop.vnptcdn.com/VTC16/playlist.m3u8
 
 #EXTINF:-1 tvg-id="kcinehd" group-title="K+" group-logo="https://cdn.hqth.me/logo/category/kplus.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/85.png", K+ CINE
-https://tv-myforum.mydiscussion.net/assets/d48af27b4f114dc9b5bdfd0fa83a0042/this-content-is-not-available.m3u8?i=1
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-available/this-content-is-not-available0.ts
 #EXTINF:-1 tvg-id="kaction" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/86.png", K+ ACTION 
-https://tv-myforum.mydiscussion.net/assets/d48af27b4f114dc9b5bdfd0fa83a0042/this-content-is-not-available.m3u8?i=1
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-available/this-content-is-not-available0.ts
 #EXTINF:-1 tvg-id="ksport1hd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png", K+ SPORT1 
 https://ctrl.laotv.la/live/K+Sport1/index.m3u8
 #EXTINF:-1 tvg-id="ksport2hd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/88.png", K+ SPORT2 
 https://ctrl.laotv.la/live/K+Sport2/index.m3u8
 #EXTINF:-1 tvg-id="kkidshd" group-title="K+" tvg-logo="https://cdn.hqth.me/logo/thumbs/89.png", K+ KIDS 
-https://tv-myforum.mydiscussion.net/assets/d48af27b4f114dc9b5bdfd0fa83a0042/this-content-is-not-available.m3u8?i=1
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-available/this-content-is-not-available0.ts
 
 #EXTINF:-1 tvg-id="antvhd" group-title="Essentials" group-logo="https://cdn.hqth.me/logo/category/thietyeu.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/90.png", ANTV HD
 https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
@@ -218,7 +218,7 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1 tvg-id="" group-title="Music" tvg-logo="https://i.ytimg.com/vi/5o77N4sNCLI/maxresdefault.jpg", Trace Urban
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="vthanhaudio" group-title="Music" tvg-logo="https://cdn.hqth.me/vthanhaudio_thumb.png", VThanh Audio
-http://tv-myforum.mydiscussion.net/assets/d48af27b4f114dc9b5bdfd0fa83a0042/this-content-is-not-available.m3u8?i=1
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
 
 
 

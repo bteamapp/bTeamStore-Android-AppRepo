@@ -3,21 +3,21 @@
 # Note
 
 #EXTINF:-1 tvg-id="bteamtv" group-title="bTeam Network" group-logo="http://myforum.mydiscussion.net/wp-content/uploads/2023/08/cropped-MyForum-v2-No-Background-512px.png" tvg-logo="http://myforum.mydiscussion.net/wp-content/uploads/2023/08/cropped-MyForum-v2-No-Background-512px.png", bTeam TV HD
-https://tv-myforum.mydiscussion.net/assets/d48af27b4f114dc9b5bdfd0fa83a0042/this-content-is-not-available.m3u8
+http://tv-myforum.mydiscussion.net/assets/d48af27b4f114dc9b5bdfd0fa83a0042/this-content-is-not-available.m3u8
 
 #EXTINF:-1 tvg-id="vthanhchannel" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhchannel_thumb.png", VThanh Channel
-https://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8
+http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8
 #EXTINF:-1 tvg-id="vthanhaudio" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhaudio_thumb.png", VThanh Audio
-https://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8
+http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8
 #EXTINF:-1 tvg-id="vthanhsp1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports1_thumb.png", VThanh Sports 1
-https://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8
+http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8
 #EXTINF:-1 tvg-id="vthanhsp2" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh Sports 2
-https://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8
-#EXTINF:-1 tvg-id="vthanhtpu2" group-title="VThanh TPU2" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh TPU2
+http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8
+#EXTINF:-1 tvg-id="vthanhtpu2" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh TPU 2
 https://doitac.nekocdn.xyz/tpv1/index.m3u8
-#EXTINF:-1 tvg-id="vthanhatv1" group-title="VThanh ATV 1" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh ATV 1
+#EXTINF:-1 tvg-id="vthanhatv1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh ATV 1
 https://doitac.nekocdn.xyz/atv1/index.m3u8
-#EXTINF:-1 tvg-id="vthanhacvn" group-title="VThanh Chill With Na" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh Chill With Na
+#EXTINF:-1 tvg-id="vthanhacvn" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh Chill With Na
 https://doitac.nekocdn.xyz/cwn/index.m3u8
 
 #EXTINF:-1 tvg-id="vtc1" group-title="VTC" group-logo="https://cdn.hqth.me/logo/category/vtc.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/32.png", VTC1 HD
@@ -201,8 +201,6 @@ http://103.130.141.67:81/live/3/playlist.m3u8
 http://103.130.141.67:81/live/4/playlist.m3u8
 #EXTINF:-1 tvg-id="dw" group-title="Worldwide News" tvg-logo="https://cdn.hqth.me/logo/thumbs/221.png", DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="france24eng" group-title="Worldwide News" tvg-logo="https://cdn.hqth.me/logo/thumbs/222.png", France 24 English
-https://code.vthanhtivi.pw/ytlive/get2.php?id=France24_en
 
 #EXTINF:-1 tvg-id="kbsworld" group-title="Worldwide News" tvg-logo="https://cdn.hqth.me/logo/thumbs/223.png", KBS World
 https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/01.m3u8
@@ -220,7 +218,7 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1 tvg-id="" group-title="Music" tvg-logo="https://i.ytimg.com/vi/5o77N4sNCLI/maxresdefault.jpg", Trace Urban
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="vthanhaudio" group-title="Music" tvg-logo="https://cdn.hqth.me/vthanhaudio_thumb.png", VThanh Audio
-https://tv-myforum.mydiscussion.net/assets/d48af27b4f114dc9b5bdfd0fa83a0042/this-content-is-not-available.m3u8
+http://tv-myforum.mydiscussion.net/assets/d48af27b4f114dc9b5bdfd0fa83a0042/this-content-is-not-available.m3u8
 
 
 

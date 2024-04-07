@@ -13,7 +13,7 @@ http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthan
 http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8
 #EXTINF:-1 tvg-id="vthanhsp2" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh Sports 2
 http://tv-myforum.mydiscussion.net/assets/e54a0cb3217d43be95436f472acf45bd/vthanh-dead.m3u8
-#EXTINF:-1 tvg-id="vthanhtpu2" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh TPU 2
+#EXTINF:-1 tvg-id="vthanhtpu2" group-title="VThanh Network" tvg-logo="https://lh6.googleusercontent.com/WtV4RXNqkE6UTfZotfu-2yq0FwQzpeY9AkMkvkNuh9GHKuRpxbtJQTVfcPH68opYnEKf5HQ7utM7sTMsOO9z94kbihjV1umhAMGP_BCfEf9QLWt0wMwkMFdGNXZGxEKv_Q=w1280", VThanh TPU 2
 https://doitac.nekocdn.xyz/tpv1/index.m3u8
 #EXTINF:-1 tvg-id="vthanhatv1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh ATV 1
 https://doitac.nekocdn.xyz/atv1/index.m3u8

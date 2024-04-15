@@ -118,6 +118,8 @@ https://hqth.me/Okita-Nga1
 https://hqth.me/Okita-Nga2
 #EXTINF:-1 group-title="Sports" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/69eju21628519874.png", Match Football 3 Russia
 https://hqth.me/Okita-Nga3
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/WWE_official_logo.svg/640px-WWE_official_logo.svg.png", WWE Network
+https://hqth.me/Okita-WWE
 
 #EXTINF:-1 tvg-id="antvhd" group-title="Essentials" group-logo="https://cdn.hqth.me/logo/category/thietyeu.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/90.png", ANTV HD
 https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
@@ -519,6 +521,9 @@ https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vt
 https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
 #EXTINF:-1 tvg-id="vthanhsp2" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh Sports 2
 https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
+#EXTINF:-1 group-title="VThanh Network
+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/USA-Network-Logo.svg/2560px-USA-Network-Logo.svg.png", USA Network by Okita
+https://hqth.me/tubannetwork
 #EXTINF:-1 tvg-id="vthanhtpu2" group-title="VThanh Network" tvg-logo="https://lh6.googleusercontent.com/WtV4RXNqkE6UTfZotfu-2yq0FwQzpeY9AkMkvkNuh9GHKuRpxbtJQTVfcPH68opYnEKf5HQ7utM7sTMsOO9z94kbihjV1umhAMGP_BCfEf9QLWt0wMwkMFdGNXZGxEKv_Q=w1280", VThanh TPU 2
 https://doitac.nekocdn.xyz/tpv1/index.m3u8
 #EXTINF:-1 tvg-id="vthanhatv1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh ATV 1

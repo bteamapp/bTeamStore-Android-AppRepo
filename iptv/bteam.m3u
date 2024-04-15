@@ -5,20 +5,7 @@
 #EXTINF:-1 tvg-id="bteamtv" group-title="bTeam Network" group-logo="http://myforum.mydiscussion.net/wp-content/uploads/2023/08/cropped-MyForum-v2-No-Background-512px.png" tvg-logo="http://myforum.mydiscussion.net/wp-content/uploads/2023/08/cropped-MyForum-v2-No-Background-512px.png", bTeam TV HD
 https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-available/this-content-is-not-available0.ts
 
-#EXTINF:-1 tvg-id="vthanhchannel" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhchannel_thumb.png", VThanh Channel
-https://github.com/vthanhtivi/hinhcho/raw/master/file.m3u8
-#EXTINF:-1 tvg-id="vthanhaudio" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhaudio_thumb.png", VThanh Audio
-https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
-#EXTINF:-1 tvg-id="vthanhsp1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports1_thumb.png", VThanh Sports 1
-https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
-#EXTINF:-1 tvg-id="vthanhsp2" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh Sports 2
-https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
-#EXTINF:-1 tvg-id="vthanhtpu2" group-title="VThanh Network" tvg-logo="https://lh6.googleusercontent.com/WtV4RXNqkE6UTfZotfu-2yq0FwQzpeY9AkMkvkNuh9GHKuRpxbtJQTVfcPH68opYnEKf5HQ7utM7sTMsOO9z94kbihjV1umhAMGP_BCfEf9QLWt0wMwkMFdGNXZGxEKv_Q=w1280", VThanh TPU 2
-https://doitac.nekocdn.xyz/tpv1/index.m3u8
-#EXTINF:-1 tvg-id="vthanhatv1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh ATV 1
-https://doitac.nekocdn.xyz/atv1/index.m3u8
-#EXTINF:-1 tvg-id="vthanhacvn" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh Chill With Na
-https://doitac.nekocdn.xyz/cwn/index.m3u8
+
 
 #EXTINF:-1 tvg-id="vtc1" group-title="VTC" group-logo="https://cdn.hqth.me/logo/category/vtc.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/32.png", VTC1 HD
 https://1236573804.pop.vnptcdn.com/VTC1/playlist.m3u8
@@ -446,3 +433,15 @@ https://ctrl.laotv.la/live/PSTV/index.m3u8
 #EXTINF:-1 group-title="Lao" tvg-logo="https://poc-cdn-google.sdmc.tv/xmediatv/public/upload/100036087499/20230802/video/23dd1aba-312f-41fe-ab8d-6b928455af0a.png", Lao ESTV
 https://ctrl.laotv.la/live/LaoESTV/index.m3u8
 
+#EXTINF:-1 tvg-id="vthanhchannel" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhchannel_thumb.png", VThanh Channel
+https://github.com/vthanhtivi/hinhcho/raw/master/file.m3u8
+#EXTINF:-1 tvg-id="vthanhaudio" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhaudio_thumb.png", VThanh Audio
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
+#EXTINF:-1 tvg-id="vthanhsp1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports1_thumb.png", VThanh Sports 1
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
+#EXTINF:-1 tvg-id="vthanhsp2" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh Sports 2
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/vthanh-dead/vthanh-dead0.ts
+#EXTINF:-1 tvg-id="vthanhtpu2" group-title="VThanh Network" tvg-logo="https://lh6.googleusercontent.com/WtV4RXNqkE6UTfZotfu-2yq0FwQzpeY9AkMkvkNuh9GHKuRpxbtJQTVfcPH68opYnEKf5HQ7utM7sTMsOO9z94kbihjV1umhAMGP_BCfEf9QLWt0wMwkMFdGNXZGxEKv_Q=w1280", VThanh TPU 2
+https://doitac.nekocdn.xyz/tpv1/index.m3u8
+#EXTINF:-1 tvg-id="vthanhatv1" group-title="VThanh Network" tvg-logo="https://cdn.hqth.me/vthanhsports2_thumb.png", VThanh ATV 1
+https://doitac.nekocdn.xyz/atv1/index.m3u8

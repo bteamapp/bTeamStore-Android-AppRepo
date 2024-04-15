@@ -81,7 +81,10 @@ https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-av
 #EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/a/a1/Man_Utd_FC_.svg",MUTV
 #EXTVLCOPT:http-user-agent=Ditmevmt
 https://hqth.me/Okita-MUTV
-EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Sport_Football_-_Logo_2020.svg/1280px-Sky_Sport_Football_-_Logo_2020.svg.png", Sky Sports FOOTBALL 1
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_bein_sports_2.png/1200px-Logo_bein_sports_2.png", Bein Sports 2 France
+#EXTVLCOPT:http-user-agent=DitmeVMT
+https://hqth.me/beinphap
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Sport_Football_-_Logo_2020.svg/1280px-Sky_Sport_Football_-_Logo_2020.svg.png", Sky Sports FOOTBALL 1
 #EXTVLCOPT:http-user-agent=DitmeVMT
 https://hqth.me/OkitaSky1
 #EXTINF:-1 group-title="Sports" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sky-sports-main-event-uk.svg", Sky Sports Main Event 2

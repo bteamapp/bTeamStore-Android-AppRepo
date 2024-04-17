@@ -80,44 +80,21 @@ https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-av
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/a/a1/Man_Utd_FC_.svg",MUTV
 #EXTVLCOPT:http-user-agent=Ditmevmt
-https://hqth.me/Okita-MUTV
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-available/this-content-is-not-available0.ts
 #EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_bein_sports_2.png/1200px-Logo_bein_sports_2.png", Bein Sports 2 France
 #EXTVLCOPT:http-user-agent=DitmeVMT
 http://iptv.hoangai.vn:81/get/dadylive/salamus2023.onlinehdhls.ru/ddh2/premium117/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Sport_Football_-_Logo_2020.svg/1280px-Sky_Sport_Football_-_Logo_2020.svg.png", Sky Sports FOOTBALL 1
 #EXTVLCOPT:http-user-agent=DitmeVMT
-https://hqth.me/OkitaSky1
+http://new.ivue.co:25461/play/live.php?mac=00:1A:79:4B:B4:15&stream=2079&extension=ts&play_token=cbtRZq3581
 #EXTINF:-1 group-title="Sports" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sky-sports-main-event-uk.svg", Sky Sports Main Event 2
 #EXTVLCOPT:http-user-agent=DitmeVMT
-https://hqth.me/OkitaSky2
+https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-available/this-content-is-not-available0.ts
 #EXTINF:-1 group-title="Sports" tvg-logo="https://e0.365dm.com/tvlogos/channels/1303-Logo.png?U2t5IFNwb3J0cyBQcmVtaWVyIExlYWd1ZQ==", Sky Sports EPL 3
 #EXTVLCOPT:http-user-agent=DitmeVMT
 https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-available/this-content-is-not-available0.ts
-# Original link at https://hqth.me/OkitaSky3
-#EXTINF:-1 group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/Viaplay_Sports_1_Stacked.svg/revision/latest?cb=20221102110507", Viaplay
-#EXTVLCOPT:http-user-agent=DitmeVMT
-https://hqth.me/vplay1
-#EXTINF:-1 group-title="Sports" tvg-logo="https://www.sportspromedia.com/wp-content/uploads/2023/08/tnt-sports-logo-transparent.png", TNT Sport 1
-#EXTVLCOPT:http-user-agent=Ditmevmt
-https://hqth.me/TNT1Oki
-#EXTINF:-1 group-title="Sports" tvg-logo="https://www.sportspromedia.com/wp-content/uploads/2023/08/tnt-sports-logo-transparent.png", TNT Sport 1 (Cable)
-#EXTVLCOPT:http-user-agent=Ditmevmt
-https://hqth.me/TNT1OkiDuphong
-#EXTINF:-1 group-title="Sports" tvg-logo="https://www.sportspromedia.com/wp-content/uploads/2023/08/tnt-sports-logo-transparent.png", TNT Sport 2
-#EXTVLCOPT:http-user-agent=Ditmevmt
-https://hqth.me/TNT2Oki
-#EXTINF:-1 group-title="Sports" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/iwotea1701768457.png", TNT Sport 3
-#EXTVLCOPT:http-user-agent=Ditmevmt
-https://hqth.me/TNT3Oki
-#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6b/TNT_Sports_4_logo.png", TNT Sport 4
-#EXTVLCOPT:http-user-agent=Ditmevmt
-https://hqth.me/TNT4Oki
-#EXTINF:-1 group-title="Sports" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/cz682u1628519810.png", Match Football 1 Russia
-https://hqth.me/Okita-Nga1
-#EXTINF:-1 group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/ba/Match%21_Futbol_2_Stacked.svg/revision/latest?cb=20221006124434", Match Football 2 Russia
-https://hqth.me/Okita-Nga2
-#EXTINF:-1 group-title="Sports" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/69eju21628519874.png", Match Football 3 Russia
-https://hqth.me/Okita-Nga3
+#EXTINF:-1 tvg-id="BT.Sport.2.HD.uk" tvg-logo="https://media.info/l/o/1/1540.1690027877.png" group-title="Sports",TNT Sports 2 FHD
+http://new.ivue.co:25461/play/live.php?mac=00:1A:79:4B:B4:15&stream=2125&extension=ts&play_token=WriMu4urCq
 #EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/WWE_official_logo.svg/640px-WWE_official_logo.svg.png", WWE Network
 http://iptv.hoangai.vn:81/get/dadylive/salamus2023.onlinehdhls.ru/ddh1/premium376/tracks-v1a1/mono.m3u8
 

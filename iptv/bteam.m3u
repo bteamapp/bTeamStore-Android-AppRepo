@@ -83,7 +83,7 @@ https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/content-not-av
 https://hqth.me/Okita-MUTV
 #EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_bein_sports_2.png/1200px-Logo_bein_sports_2.png", Bein Sports 2 France
 #EXTVLCOPT:http-user-agent=DitmeVMT
-https://hqth.me/beinphap
+http://iptv.hoangai.vn:81/get/dadylive/salamus2023.onlinehdhls.ru/ddh2/premium117/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Sport_Football_-_Logo_2020.svg/1280px-Sky_Sport_Football_-_Logo_2020.svg.png", Sky Sports FOOTBALL 1
 #EXTVLCOPT:http-user-agent=DitmeVMT
 https://hqth.me/OkitaSky1
@@ -119,7 +119,7 @@ https://hqth.me/Okita-Nga2
 #EXTINF:-1 group-title="Sports" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/69eju21628519874.png", Match Football 3 Russia
 https://hqth.me/Okita-Nga3
 #EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/WWE_official_logo.svg/640px-WWE_official_logo.svg.png", WWE Network
-https://hqth.me/Okita-WWE
+http://iptv.hoangai.vn:81/get/dadylive/salamus2023.onlinehdhls.ru/ddh1/premium376/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="antvhd" group-title="Essentials" group-logo="https://cdn.hqth.me/logo/category/thietyeu.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/90.png", ANTV HD
 https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8

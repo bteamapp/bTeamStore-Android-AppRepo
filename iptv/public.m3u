@@ -6,6 +6,9 @@
 https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/bTeam-network/MyForumTVHD%20Testcard.ts
 #EXTINF:-1 tvg-id="bteamtv" group-title="bTeam Network" group-logo="https://raw.githubusercontent.com/bteamapp/bTeamStore-Android-AppRepo/main/iptv/assets/bTeam-network/LIVE%20Extra%20from%20bTeam.jpg" tvg-logo="https://raw.githubusercontent.com/bteamapp/bTeamStore-Android-AppRepo/main/iptv/assets/bTeam-network/LIVE%20Extra%20from%20bTeam.jpg", Live Extra HD
 https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/bTeam-network/LiveExtra-nostream.ts
+#EXTINF:-1 tvg-id="bteamtv" group-title="bTeam Network" group-logo="https://raw.githubusercontent.com/bteamapp/bTeamStore-Android-AppRepo/main/iptv/assets/bTeam-network/LIVE%20Extra%20from%20bTeam.jpg" tvg-logo="https://149772863.v2.pressablecdn.com/wp-content/uploads/2021/12/WildEarth-logo-white_esm2.png", bTeam WildEarth Extra
+https://wildearth-adsfree-ono.amagi.tv/playlist.m3u8
+
 
 #EXTINF:-1 tvg-id="vtc1" group-title="VTC" group-logo="https://cdn.hqth.me/logo/category/vtc.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/32.png", VTC1 HD
 https://1236573804.pop.vnptcdn.com/VTC1/playlist.m3u8
@@ -423,7 +426,8 @@ https://ctrl.laotv.la/live/TrueSport3/index.m3u8
 #EXTINF:-1 group-title="Thailand" tvg-logo="https://cms.dmpcdn.com/livetv/2019/10/28/e52c8980-f972-11e9-a1fc-5dda12c8d080_320.png", True Sports 7
 https://edge1.laotv.la/live/THD7/index.m3u8
 
-
+#EXTINF:-1 tvg-id="bteamtv" group-title="Lao" group-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/1200px-2018_Animal_Planet_logo.svg.png" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/1200px-2018_Animal_Planet_logo.svg.png", Animal Planet
+https://ctrl.laotv.la/live/AnimalPlanet/index.m3u8
 #EXTINF:-1 group-title="Lao" group-logo="https://cdn.hqth.me/logo/category/la.png" tvg-logo="https://poc-cdn-google.sdmc.tv/xmediatv/public/upload/100036087499/20230609/video/47acb94e-a2a5-4fde-bd9f-a0ec148cdf86.png", LNTV3
 https://ctrl.laotv.la/live/LNTV3/index.m3u8
 #EXTINF:-1 group-title="Lao" tvg-logo="https://poc-cdn-google.sdmc.tv/xmediatv/public/upload/100036087499/20230609/video/57c9c7ba-bcc7-4c30-8ad4-d4fab611a2b7.png", LNTV1

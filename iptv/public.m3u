@@ -7,6 +7,10 @@ https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/bTeam-network/
 #EXTINF:-1 tvg-id="bteamtv" group-title="bTeam Network" group-logo="https://raw.githubusercontent.com/bteamapp/bTeamStore-Android-AppRepo/main/iptv/assets/bTeam-network/LIVE%20Extra%20from%20bTeam.jpg" tvg-logo="https://raw.githubusercontent.com/bteamapp/bTeamStore-Android-AppRepo/main/iptv/assets/bTeam-network/LIVE%20Extra%20from%20bTeam.jpg", Live Extra HD
 https://bteamapp.github.io/bTeamStore-Android-AppRepo/iptv/assets/bTeam-network/LiveExtra-nostream.ts
 
+#EXTINF:-1 tvg-id="vtv1" group-title="VTV1" group-logo="https://img.hplus.com.vn/460x260/poster/2018/06/05/182139-VTV1.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/32.png", VTC1 HD
+
+https://1011337676.vnns.net/-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTQxMzc4MDcsInVyaSI6IlwvaHR2Y1wvdnR2MWhkLjcyMHAubmIuYWRtLnRtcyIsImlwIjoiIn0.tqDUL9S8Es-gL6PKOkaHyWVN_N8EilDBr0K3E0jmE4E-/htvc/vtv1hd.720p.nb.adm.tms/chunks.m3u8
+
 #EXTINF:-1 tvg-id="vtc1" group-title="VTC" group-logo="https://cdn.hqth.me/logo/category/vtc.png" tvg-logo="https://cdn.hqth.me/logo/thumbs/32.png", VTC1 HD
 https://1236573804.pop.vnptcdn.com/VTC1/playlist.m3u8
 #EXTINF:-1 tvg-id="vtc2" group-title="VTC" tvg-logo="https://cdn.hqth.me/logo/thumbs/33.png", VTC2

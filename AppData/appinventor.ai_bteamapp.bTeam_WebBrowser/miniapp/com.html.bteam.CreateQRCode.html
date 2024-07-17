@@ -1,0 +1,212 @@
+<!-- The content inside this CSS file has been licensed, please only use it when you have modified it and you're prohibited from reselling courses, CSS files,... using this file -->
+<!-- This is a part of the app: Secure Browser from bTeam for Android (Free of charge) -->
+<!-- You can download the app for free to support me, just using this link https://bit.ly/sbbt-aff1707 and you can download it for your Android phone via Amazon App Store or APK -->
+
+<!DOCTYPE html>
+<html>
+<title>Mini-app HTML5 based - Site by bTeam</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+    	*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: black;
+    margin: 15px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 15px;
+    outline: none;
+    font-size: 1.2rem;
+    color: black;
+    padding: 0 10px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 1.1rem;
+    margin: 15px;
+    cursor: pointer;
+    outline: none;
+    background: #fafafa;
+    color: black;
+    border: none;
+}
+
+
+
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="https://blogger.googleusercontent.com/img/a/AVvXsEh9wOvX-nNPR0xYMptMVrdMJ0Y1vVf-zzYmmXL1JH1oI-j0kX3bG58-rIociSkn-xfGFzDowNvVguFer2_LDk_lfji1BJgouNBm8ie_WX2f0k7PKJIKYiPWvCE-6CvxqmGmB-o6BCL71Uk-X0o0WSRHVU_lL0klvs_vB9fVWCCBBZAgFrbasitX3UOxXA=s16000" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2></h2>
+          </div>
+        </div>
+
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        
+          
+          
+          <!-- App Main-->
+                <center><div class="main">
+
+
+
+          <!-- Body 01-->
+    <div class="main2">
+      <h1>Create QR code</h1>
+      <input type="text" placeholder="Enter the value here..." name="" id="input" autocomplete="off"/>
+      <button type="submit" placeholder="Enter the value here" onclick="func()" id="submit">
+        CREATE
+      </button>
+      <img src="" alt="Please create the QR code first" id="img">
+    </div></center>
+      
+      
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<script>
+function func(){
+    var x = document.getElementById("input").value;
+    var url = `https://quickchart.io/qr?text={x}`;
+
+    var img = document.getElementById("img");
+
+    img.src = url;
+    console.log(url);
+  }
+</script>
+
+<script language=Javascript>
+function qrscan(){
+window.open('go:qrscan','Scan','width=1000,height=1000,status=0,scrollbars=0,menubar=0,resizable=0,directories=0,toolbar=0,location=0')
+}
+</script>
+
+<script language=Javascript>
+function qrcreate(){
+window.open('go:qrcreate','Create','width=1000,height=1000,status=0,scrollbars=0,menubar=0,resizable=0,directories=0,toolbar=0,location=0')
+}
+</script>
+          
+          <analytic-user>
+<iframe src="http://bmeet.html-5.me/pingconnect.html" frameborder="0" width="1" height="1"></iframe>
+<iframe src="http://bteam-sdn.byethost9.com/pingconnect.html" frameborder="0" width="1" height="1"></iframe>
+</analytic-user>
+          
+          
+          <hr>
+        </div>
+        
+        
+        <!--<div class="w3-container">
+          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>-->
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+
+<center><b>Do you like our app? <a href="http://www.app-us-bteamapp.c1.biz/APPONLINE/bqrlite/survey/one.html" ping="http://www.app-us-bteamapp.c1.biz/APPONLINE/bqrlite/ping/sv.text" >Tell us now !</a></b></center>
+
+</body>
+</html>
+

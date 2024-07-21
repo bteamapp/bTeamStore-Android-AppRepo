@@ -2,6 +2,7 @@
 <!-- This is a part of the app: Secure Browser from bTeam for Android (Free of charge) -->
 <!-- You can download the app for free to support me, just using this link https://bit.ly/sbbt-aff1707 and you can download it for your Android phone via Amazon App Store or APK -->
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,6 +51,47 @@
             color: black;
             border: none;
         }
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0); /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .modal-content img {
+            width: 100px; /* Adjust size as needed */
+            height: 100px; /* Adjust size as needed */
+        }
+        .progress-bar {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 25px;
+            margin-top: 10px;
+            height: 20px;
+        }
+        .progress-bar-fill {
+            height: 100%;
+            background-color: #4CAF50;
+            border-radius: 25px;
+            width: 0%;
+        }
     </style>
 </head>
 <body class="w3-light-grey">
@@ -82,12 +124,14 @@
                                 <button type="submit" onclick="generateQRCode()" id="submit">CREATE</button>
                                 <br>
                                 
-                                <img id="image" src="" alt="Please create the QR code first" id="img">
+                                <img id="image" src="" alt="Please create the QR code first">
                                 
                                 
                                 <center>
                                 <br><br>
                                 <b>Do you like our app? <a href="http://www.app-us-bteamapp.c1.biz/APPONLINE/bqrlite/survey/one.html" ping="http://www.app-us-bteamapp.c1.biz/APPONLINE/bqrlite/ping/sv.text">Tell us now!</a></b>
+                                <br>
+                                <b>Discover our other app by <a href="https://bteamwebsite.blogspot.com/download" ping="http://www.app-us-bteamapp.c1.biz/APPONLINE/bqrlite/ping/sv.text">clicking here!</a></b>
                                 <br>
                                 </center>
                                 
@@ -110,11 +154,72 @@
     </div>
     <!-- End Page Container -->
 
+    <!-- Loading Modal -->
+    <div id="loadingModal" class="modal">
+        <div class="modal-content">
+            <img src="https://cdn.jsdelivr.net/gh/bteamapp/bTeamStore-Android-AppRepo@main/AppData/appinventor.ai_bteamapp.bTeam_WebBrowser/miniapp/assets/pending.png" alt="Loading">
+            <p>Generating...</p>
+            <div class="progress-bar">
+                <div class="progress-bar-fill" id="progressBarFill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reload Modal -->
+    <div id="reloadModal" class="modal">
+        <div class="modal-content">
+            <p>You have generated a QR code. To generate another, please reload the page.</p>
+            <button onclick="location.reload()">Reload Page</button>
+        </div>
+    </div>
+
     <script>
+        let progressBar = document.getElementById("progressBarFill");
+        let interval;
+        let hasGenerated = false;
+
         function generateQRCode() {
+            if (hasGenerated) {
+                document.getElementById("reloadModal").style.display = "block";
+                return;
+            }
+
             var value = document.getElementById("input").value;
+            if (value.trim() === "") {
+                alert("Please enter a value to generate the QR code.");
+                return;
+            }
             var url = `https://quickchart.io/qr?width=800&text=${encodeURIComponent(value)}`;
             var img = document.getElementById("image");
+            img.src = "";
+
+            // Show loading modal
+            document.getElementById("loadingModal").style.display = "block";
+
+            // Start progress bar
+            let progress = 0;
+            progressBar.style.width = "0%";
+            interval = setInterval(() => {
+                if (progress >= 100) {
+                    clearInterval(interval);
+                } else {
+                    progress += 5;
+                    progressBar.style.width = progress + "%";
+                }
+            }, 100);
+
+            img.onload = function() {
+                clearInterval(interval);
+                document.getElementById("loadingModal").style.display = "none";
+                hasGenerated = true;
+            };
+
+            img.onerror = function() {
+                clearInterval(interval);
+                document.getElementById("loadingModal").style.display = "none";
+                alert("Failed to load QR code. Please try again.");
+            };
+
             img.src = url;
         }
 
@@ -126,4 +231,3 @@
     </script>
 </body>
 </html>
-

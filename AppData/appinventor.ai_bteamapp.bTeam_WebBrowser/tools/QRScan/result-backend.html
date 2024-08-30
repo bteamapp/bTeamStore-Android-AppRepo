@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parameter Display</title>
+    <title>Scanned QR Code</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,31 +28,32 @@
 <body>
 
 <div class="container">
-    <h1>Parameter Display</h1>
+    <h1>Scanned QR Code</h1>
     <div id="parameter" class="parameter"></div>
+    <br /><hr />
     <button id="copyButton">Copy</button>
     <button id="goButton">Go</button>
 </div>
 
 <script>
-    // Lấy thông số từ URL
+    // Get parameter
     const urlParams = new URLSearchParams(window.location.search);
     const dataParam = urlParams.get('data');
 
-    // Hiển thị thông số trên trang
+    // Show the parameter
     const parameterDiv = document.getElementById('parameter');
     parameterDiv.textContent = dataParam;
 
-    // Xử lý nút Copy
+    // Copy button
     document.getElementById('copyButton').addEventListener('click', function() {
         navigator.clipboard.writeText(dataParam).then(() => {
-            alert('Copied to clipboard');
+            alert('Copied to clipboard. If the text does not copy, press and hold the text, then select copy.');
         }).catch(err => {
             console.error('Failed to copy: ', err);
         });
     });
 
-    // Xử lý nút Go
+    // Go button
     document.getElementById('goButton').addEventListener('click', function() {
         if (dataParam && dataParam.startsWith('http')) {
             window.location.href = dataParam;
@@ -61,7 +62,7 @@
         }
     });
 
-    // Ẩn nút Go nếu thông số không phải là URL
+    // Hide button "Go" if parameter is not an URL
     if (!dataParam || !dataParam.startsWith('http')) {
         document.getElementById('goButton').style.display = 'none';
     }

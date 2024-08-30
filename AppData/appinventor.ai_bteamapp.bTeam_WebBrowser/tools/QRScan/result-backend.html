@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameter Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .container {
+            text-align: center;
+        }
+        .parameter {
+            margin: 20px 0;
+            font-size: 24px;
+            word-break: break-all;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Parameter Display</h1>
+    <div id="parameter" class="parameter"></div>
+    <button id="copyButton">Copy</button>
+    <button id="goButton">Go</button>
+</div>
+
+<script>
+    // Lấy thông số từ URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const dataParam = urlParams.get('data');
+
+    // Hiển thị thông số trên trang
+    const parameterDiv = document.getElementById('parameter');
+    parameterDiv.textContent = dataParam;
+
+    // Xử lý nút Copy
+    document.getElementById('copyButton').addEventListener('click', function() {
+        navigator.clipboard.writeText(dataParam).then(() => {
+            alert('Copied to clipboard');
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+        });
+    });
+
+    // Xử lý nút Go
+    document.getElementById('goButton').addEventListener('click', function() {
+        if (dataParam && dataParam.startsWith('http')) {
+            window.location.href = dataParam;
+        } else {
+            alert('Parameter is not a valid URL');
+        }
+    });
+
+    // Ẩn nút Go nếu thông số không phải là URL
+    if (!dataParam || !dataParam.startsWith('http')) {
+        document.getElementById('goButton').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>

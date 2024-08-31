@@ -9,40 +9,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scanned QR Code</title>
+    <title>QR Code data</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 50px;
+        /* Reset some basic elements */
+        body, h1, button {
+            margin: 0;
+            padding: 0;
         }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
         .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
             text-align: center;
         }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        
         .parameter {
             margin: 20px 0;
-            font-size: 24px;
-            word-break: break-all;
+            font-size: 20px;
+            word-break: break-word;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
         }
+
         button {
             margin: 10px;
-            padding: 10px 20px;
+            padding: 12px 25px;
             font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
             cursor: pointer;
+            transition: background-color 0.3s ease;
         }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button:active {
+            background-color: #004494;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 30px 0;
+        }
+
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Scanned QR Code</h1>
+    <h2>QR code content</h2>
     <div id="parameter" class="parameter"></div>
-    <br /><hr />
+    <hr />
     <button id="copyButton">Copy</button>
-    <button id="goButton">Go</button>
+    <button id="goButton">Go to URL</button>
 </div>
 
 <script>
-    // Get parameter
+    // Get parameter from URL
     const urlParams = new URLSearchParams(window.location.search);
     const dataParam = urlParams.get('data');
 
@@ -68,7 +132,7 @@
         }
     });
 
-    // Hide button "Go" if parameter is not an URL
+    // Hide "Go" button if parameter is not a URL
     if (!dataParam || !dataParam.startsWith('http')) {
         document.getElementById('goButton').style.display = 'none';
     }

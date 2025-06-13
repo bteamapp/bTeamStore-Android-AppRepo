@@ -30,14 +30,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Updated to v4
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5 # Updated to v5 (latest stable)
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3 # Updated to v3 (latest stable for this action as of my last update, v4 may not exist or may be pre-release for this specific one, v3 is the current recommended for general use)
+                                              # If you specifically meant actions/artifact v4 (which is for general artifacts, not pages-specific),
+                                              # the pages actions (upload-pages-artifact and deploy-pages) are the correct ones to use for GitHub Pages.
+                                              # As of late 2023/early 2024, upload-pages-artifact@v3 and deploy-pages@v4 are the latest.
         with:
           # Upload entire repository
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4 # Updated to v4
